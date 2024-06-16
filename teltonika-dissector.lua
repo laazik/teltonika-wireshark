@@ -1,5 +1,7 @@
 --[[
   Very rudimentary wireshark LUA dissector for Teltonika protocols. Any update is more than welcome.
+
+  Any data/io/protocol level packet dissection is missing.
 ]]
 teltonika_protocol = Proto("Teltonika", "Teltonika protocol")
 
